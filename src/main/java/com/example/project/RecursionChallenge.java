@@ -2,7 +2,7 @@
 
     public class RecursionChallenge {
 
-            public static int bunnyEars(int n){ // me, done
+            public static int bunnyEars(int n){ 
                 if (n == 1) {
                     return 2;
                 }
@@ -20,7 +20,7 @@
                 return n * factorial(n - 1);
             }
 
-            public static int sumNumbers(int n){ // me, done
+            public static int sumNumbers(int n){ 
                 if (n < 1) {
                     return 0;
                 }
@@ -38,7 +38,7 @@
                 return n + "," + countDown(n - 1);
             }
 
-            public static int power(int x, int n){ // me 
+            public static int power(int x, int n){ 
                 if (n == 1) {
                     return x;
                 }
@@ -53,7 +53,7 @@
                 return fib(n - 2) + fib(n - 1);
             }
 
-            public static int countX(String s){ // me, done
+            public static int countX(String s){ 
                 if (s.length() == 0) {
                     return 0;
                 }
@@ -84,7 +84,7 @@
             }
 
 
-            public static String reverse(String s){ // me
+            public static String reverse(String s){ 
                 if (s.length() <= 1) {
                     return s;
                 }
@@ -100,5 +100,4 @@
                 }
                 return isPalindrome(s.substring(1, s.length() - 1));
             }
-
     }
